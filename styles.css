@@ -1,0 +1,70 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.player h2 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.debuffs {
+    margin-bottom: 15px;
+}
+
+.debuff {
+    background: #f44336;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+button {
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+#install-button {
+    margin-bottom: 20px;
+    display: none; /* Кнопка скрыта по умолчанию */
+}
+
+#reset-all {
+    margin-bottom: 20px;
+    background: #008CBA;
+}
+
+#reset-all:hover {
+    background: #007A9E;
+}
